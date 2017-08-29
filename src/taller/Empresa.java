@@ -35,7 +35,7 @@ public class Empresa {
             return false;
     }
     
-    public boolean addDepartemanto(Departamento departamento){
+    public boolean addDepartamento(Departamento departamento){
         if(this.departamentos.add(departamento))
             return true;
         else
