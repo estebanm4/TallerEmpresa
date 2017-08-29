@@ -1,5 +1,6 @@
 package taller;
 import java.util.Scanner;
+import java util.ArrayList;
 public class Taller {
 
     
@@ -18,7 +19,7 @@ public class Taller {
             String nombre = in.next();
             Departamento nuevo = new Departamento(nombre);
             if(empresa.addDepartamento(nuevo)){
-                System.out.println("Se agrego satisfactiriamente");
+                System.out.println("Se agrego satisfactoriamente");
             } else {
                 System.out.println("Problemas al registrar el departamento");
             }
@@ -26,6 +27,11 @@ public class Taller {
         }else if (opcion == 2){
             
         } else if (opcion ==3){
+            ArrayList<Departamento> departamento = empresa.listarDepartamentos();
+            for(Departamentos departamento: departamento) {
+                System.out.println("Opción Inválida);
+            }
+                    
             
         } else {
             System.out.println("Opción Inválida");
