@@ -1,6 +1,6 @@
 package taller;
 import java.util.Scanner;
-import java util.ArrayList;
+import java.util.ArrayList;
 public class Taller {
 
     
@@ -27,9 +27,9 @@ public class Taller {
         }else if (opcion == 2){
             
         } else if (opcion ==3){
-            ArrayList<Departamento> departamento = empresa.listarDepartamentos();
-            for(Departamentos departamento: departamento) {
-                System.out.println("Opción Inválida);
+            ArrayList<Departamento> departamentos= empresa.listarDepartamentos();
+            for(Departamento departamento: departamentos){
+                System.out.println("Opción Inválida");
             }
                     
             
